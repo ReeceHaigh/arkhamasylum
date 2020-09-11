@@ -1,0 +1,504 @@
+/* HTML ELEMENTS */
+html, body { width: 100%; height: 100%; }
+body { margin: 0; padding: 0; font: 100 0.78em verdana; color: #fff; background:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/general/background.jpg") no-repeat 50% 0 #000; }
+h1 { margin: 0; padding: 0 0 10px 0; color: #fff; font-size: 225%; font-family: impact; font-weight: normal; text-transform: uppercase; }
+h2 { margin: 0; padding: 0 0 10px 0; color: #ccc; font-size: 180%; font-family: impact; font-weight: normal; text-transform: uppercase; }
+h3 { margin: 0; padding: 0 0 5px 0; color: #999; font-size: 115%; font-weight: normal; text-transform: uppercase; }
+p { margin: 0; padding: 0 0 10px 0; }
+img { border: none; }
+
+/* FORM ELEMENTS */
+form { margin: 0; padding: 0; }
+label, .Label { float: left; display: block; width: 175px; padding: 0 10px 0 0; }
+input, select, textarea { margin: 0; padding: 2px 4px; font-size: 90%; font-family: verdana; color: #000; background: #fff; border: none; }
+#Login { float: right; margin: 0; padding: 2px 23px 0 0; color: #999; border: none; background:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/buttons/arrow.gif") no-repeat 100% 2px #000; border: none; font-family: impact; font-size: 112%; text-transform: uppercase; cursor: pointer; height: 20px; }
+
+/* HOLDER ELEMENTS */
+#FlashBackground  { position: absolute; left: 0; top: 0; width: 100%; height: 100%; z-index:1; }
+#Page { margin: 0 auto; position: absolute; left: 0; top: 0; width: 100%; height: 100%; z-index:2; background:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/general/navigation.gif") no-repeat 50% 103px; }
+#Header, #Navigation { font-family: impact; }
+#Header { width: 919px; margin: 11px auto 0 auto; padding: 0 0 0 11px; height: 140px; }
+#Navigation { clear: both; width: 100%; height: 83px; } 
+html > body #Navigation { width: auto; min-width: 930px; }
+#Content { clear: both; padding: 5px 0; margin: 0 auto; width: 930px; height: 810px; }
+html > body #Content { height: auto; min-height: 810px; }
+#Footer { clear: both; margin: 0 auto; width: 100%; background: url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/general/footer.gif") no-repeat 50% 0 #000; padding: 120px 0 10px 0; color: #999; font-size: 80%; }
+html > body #Footer { width: auto; min-width: 930px; }
+
+/* HEADER ELEMENTS */
+#Header div { float: left; margin: 0; padding: 0; display: block; height: 140px; overflow:visible; }
+#Header ul { margin: 0; padding: 0; list-style: none; }
+#Header #HeaderMain { float: left; width: 270px; }
+#Header #HeaderMain ul { margin: 0 0 5px 0; height: 15px; }
+#Header #HeaderMain ul li { float: left; display: block; width: 19px; height: 15px; margin: 0 5px 0 0; }
+#Header #HeaderMain ul li a { float: left; width: 19px; height: 15px; text-indent: -99999px; background-repeat: no-repeat; background-position: 0 0; }
+#Header #HeaderMain ul .UKEnglish a { background-image:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/flags/small/ukenglish.gif"); }
+#Header #HeaderMain ul .USEnglish a { background-image:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/flags/small/usenglish.gif"); }
+#Header #HeaderMain ul .AUEnglish a { background-image:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/flags/small/auenglish.gif"); }
+#Header #HeaderMain ul .German a { background-image:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/flags/small/german.gif"); }
+#Header #HeaderMain ul .Italian a { background-image:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/flags/small/italian.gif"); }
+#Header #HeaderMain ul .Spanish a { background-image:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/flags/small/spanish.gif"); }
+#Header #HeaderMain ul .French a { background-image:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/flags/small/french.gif"); }
+#Header #HeaderMain p { clear: both; float: left; display: block; width: 270px; height: 113px; padding: 0; }
+#Header #HeaderMain p a { float: left; display: block; background:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/general/buy_now.gif") no-repeat 0 0; width: 184px; height: 73px; color: #fff; text-decoration: none; padding: 40px 0 0 86px; font-size: 150%; text-transform: uppercase; }
+#Header #HeaderMain p a:hover { background-position: 0 -113px; }
+#Header #Logo { width: 387px; }
+
+/* USER PANEL */
+#Header #HeaderRight { padding: 0 0 0 60px; width: 200px; height: 140px; }
+#Header #HeaderRight a { float: left; background-repeat: no-repeat; background-position: 0 0; color: #fff; text-decoration: none; }
+#Header #HeaderRight ul { margin: 0 0 2px 0; height: 21px; }
+#Header #HeaderRight ul li { display: inline; }
+#Header #HeaderRight ul li a { padding: 2px 0 3px 20px; margin: 0 5px; font-family: verdana; font-weight: bold; }
+#Header #HeaderRight ul .Facebook a { background-image:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/logos/facebook.gif"); }
+#Header #HeaderRight ul .MySpace a { background-image:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/logos/myspace.gif"); }
+#Header #HeaderRight #Advertise { height: 52px; padding: 3px 0 7px 7px; width: 211px; margin: 0 0 8px 0; /*background:url(/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/panels/advertising.gif) no-repeat 0 0;*/ }
+#Header #HeaderRight .Register { float: left; clear: both; clear: both; padding: 5px 0 0 0; width: 100%; height: 20px; }
+#Header #HeaderRight .Register a { background:url(/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/buttons/register.gif) no-repeat 10px 2px; padding: 0 0 0px 31px; width: 165px; margin-left:5px; text-transform: uppercase; font-size: 130%; }
+
+/* NAVIGATION */
+#Navigation #NavInner { clear: both; margin: 0 auto; width: 930px; text-align: center; }
+#Navigation #NavInner ul { margin: 0; padding: 0; list-style: none; }
+#Navigation #NavInner ul li { float: left; display: block; width: 130px; margin: 10px 0 0 0; padding: 0; }
+#Navigation #NavInner ul li a { float: left; text-align: center; width: 100%; color: #fff; text-transform: uppercase; text-decoration: none; font-size: 165%; padding: 20px 0; letter-spacing: 0.05em; }
+#Navigation #NavInner ul li a:hover { color: #ccc; }
+
+/* LANGUAGE SPECIFIC */
+#Navigation #NavInner .FRNav li { width: 121px; text-align: center; }
+#Navigation #NavInner .FRNav .Downloads { width: 184px; }
+#Navigation #NavInner .FRNav li a { font-size: 150%; }
+
+/* CONTENT ELEMENTS */
+
+/* Metal Panels */
+#Content .MetalPanelLarge { background:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/panels/large_metal.gif") no-repeat 0 0; margin: 0 auto 5px auto; width: 700px; height: 394px; padding: 4px; text-align: center; }
+#Content .MetalPanelSmall { background:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/panels/small_metal.gif") no-repeat 0 0; margin: 0 auto 5px auto; width: 876px; height: 271px; padding: 4px; }
+#Content .MetalPanelInfo { margin: 0; padding: 15px; background:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/panels/panel_metal.gif") no-repeat 0 0; height: 271px; width: 318px;  }
+#Content .MetalPanelSmall2 { background:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/panels/small_metal2.gif") no-repeat 0 0; margin: 0 auto 5px auto; width: 876px; height: 200px; padding: 4px; }
+#Content .MetalShallowPanel { margin: 0; padding: 10px 15px; background:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/panels/panel_shallow_metal.gif") no-repeat 0 0; width: 253px; height: 200px; text-align: right; }
+
+#Content .MetalPanelSmall dl, #Content .MetalPanelSmall dl dt, #Content .MetalPanelSmall dl dd { margin: 0; padding: 0; }
+#Content .MetalPanelSmall dl dt { background-repeat: no-repeat; background-position: 0 0; height: 225px; width: 100%; font-family: impact; color: #fff; text-transform: uppercase; font-size: 225%; }
+#Content .MetalPanelSmall dl dd { padding: 6px 10px 4px 20px; height: 34px; background: #000; color: #fff; overflow: hidden; }
+html > body #Content .MetalPanelSmall dl dd { padding-bottom: 6px; }
+#Content .MetalPanelSmall dl dd strong { font-weight: normal; color: #fc0; }
+#Content .MetalPanelSmall dl dd a { float: right; height: 22px; padding: 12px 44px 0 30px; color: #feae01; text-decoration: none; text-transform: uppercase; background:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/buttons/circle_arrow_grey.gif") no-repeat 100% -34px; }
+#Content .MetalPanelSmall dl dd a:hover { color: #999; background-position: 100% 0; }
+
+/* HOME TRAILER HOLDER */
+#Content .MetalPanelLarge #TrailerHolder { width: 700px; height: 394px; background: #000; }
+#Content .MetalPanelLarge #TrailerHolder a { float: left; width: 670px; height: 364px; padding: 30px 30px 0 0; background:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/general/view_trailer.jpg") no-repeat 0 0; color: #fff; font-family: impact; font-size: 300%; text-align: right; text-decoration: none; text-transform: uppercase; }
+
+/* CARROUSEL HOLDER */
+#Content .MetalPanelLarge #Carrousel { position: relative; width: 700px; height: 394px; background: #000; }
+#Content .MetalPanelLarge #Carrousel div { position: absolute; top: 0; left: 0; }
+#Content .MetalPanelLarge #Carrousel #CarrouselNav { top: 335px; left: 10px; }
+#Content .MetalPanelLarge #Carrousel #CarrouselNav ul { margin: 0; padding: 0; list-style: none; }
+#Content .MetalPanelLarge #Carrousel #CarrouselNav ul li { display: inline; margin: 0 5px 0 0; }
+#Content .MetalPanelLarge #Carrousel #CarrouselNav ul li img { border: solid 1px #fff; cursor: pointer; }
+
+/* News Panel */
+#Content .MetalPanelSmall .NewsPanel dt { background-image:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/pictures/news.jpg"); }
+
+/* PANEL TITLES */
+#Content h1.Article, #Content h1.Blog { float: left; width: 872px; padding: 15px 0 0 12px; margin: 0 23px; background:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/panels/title.gif") no-repeat 0 0; height: 49px; font-size: 225%; overflow: hidden; }
+
+/* Game Panel */
+#Content .MetalPanelSmall .GamePanel dt { background-image:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/pictures/game.jpg"); }
+
+/* BLOG PANEL */
+#Content .MetalPanelSmall2 div { float: left; width: 876px; background-repeat: no-repeat; background-position: 0 0; height: 200px; font-family: impact; color: #fff; text-transform: uppercase; font-size: 225%; }
+#Content .MetalPanelSmall2 div span { float: left; padding: 10px 0 0 10px; }
+#Content .MetalPanelSmall2 .Overview { background-image:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/pictures/overview.jpg"); }
+#Content .MetalPanelSmall2 .Features { background-image:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/pictures/features.jpg"); }
+#Content .MetalPanelSmall2 .Characters { background-image:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/pictures/characters2.jpg"); padding: 10px 0 0 10px; width: 866px; height: 200px; font-family: impact; color: #fff; text-transform: uppercase; font-size: 225%; }
+
+#Content .MetalPanelSmall .Characters { background-image:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/pictures/characters.jpg"); padding: 10px 0 0 10px; width: 866px; height: 261px; font-family: impact; color: #fff; text-transform: uppercase; font-size: 225%; }
+
+/* Side By side Black Fuzz Elements */
+#Content .MetalPanelInfo dl, #Content .MetalPanelInfo dt, #Content .MetalPanelInfo dd { float: left; clear: both; margin: 0; padding: 0; width: 100%; }
+#Content .MetalPanelInfo dl { margin: 0 0 5px 0; }
+#Content .MetalPanelInfo dt { color: #999; margin: 0 0 2px 0; font-size: 90%; }
+#Content .MetalPanelInfo dt strong { color: #666; font-weight: normal; font-size: 105%; }
+#Content .MetalPanelInfo dd p { clear: both; padding: 0 0 5px 0; }
+#Content .MetalPanelInfo dd .Bottom { clear: both; text-align: right; color: #999; }
+#Content .MetalPanelInfo dd .Bottom span { float: left; }
+#Content .MetalPanelInfo dd .Bottom a { float: right; padding: 2px 23px 0 0; color: #fc0; height: 16px; border: none; background:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/buttons/arrow_yellow.gif") no-repeat 100% 0 #000; text-decoration: none;  }
+#Content .MetalPanelInfo dd .Bottom a:hover { color: #fff; background-position: 100% -18px; }
+
+/* METAL PANEL DEEP INFO */
+#Content .MetalShallowPanel a { color: #feae01; text-decoration: none; background:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/buttons/small_arrow_yellow.gif") no-repeat 100% -24px; padding: 5px 34px 5px 0; }
+#Content .MetalShallowPanel a:hover { background-position: 100% 0; color: #999; }
+#Content .MetalShallowPanel .MetalWindow { height: 180px; text-align: left; }
+#Content .MetalShallowPanel .MetalWindow h2 { font-size: 200%; }
+
+/* Home Cols */
+#Content .HomeCol1, #Content .HomeCol2 { float: left; display: block; width: 348px; }
+#Content .HomeCol1 { clear: both; margin: 0 12px 0 56px; }
+html > body #Content .HomeCol1 { margin-left: 111px; }
+
+/* NEWS PAGE */
+#Content #NewsPanelHolder { clear: both; width: 884px; margin: 0 auto; background:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/panels/news_list_top.gif") no-repeat 0 0; padding: 3px 0 0 0; }
+#Content #NewsPanelHolder #NewsPanelInner { width: 100%; background:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/panels/news_list_bottom.gif") no-repeat 0 100%; padding: 0 0 5px 0; }
+#Content #NewsPanelHolder #NewsPanelInner dl, #Content #NewsPanelHolder #NewsPanelInner dl dt, #Content #NewsPanelHolder #NewsPanelInner dd { margin: 0; padding: 0; display: block; }
+#Content #NewsPanelHolder #NewsPanelInner dl { padding: 10px 0; width: 100%; background:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/panels/news_list_middle.gif") repeat-y 0 0; overflow: auto; }
+#Content #NewsPanelHolder #NewsPanelInner dl dt, #Content #NewsPanelHolder #NewsPanelInner dl dd { float: left; }
+#Content #NewsPanelHolder #NewsPanelInner dl dt { padding: 0 0 0 12px; width: 85px; }
+#Content #NewsPanelHolder #NewsPanelInner dl dt img { border: solid 1px #666; }
+#Content #NewsPanelHolder #NewsPanelInner dl dd { padding: 0 0 0 10px; width: 777px; }
+#Content #NewsPanelHolder #NewsPanelInner dl dd a { color: #fc0; text-decoration: none; }
+#Content #NewsPanelHolder #NewsPanelInner dl dd span, #Content #NewsPanelHolder #NewsPanelInner dl dd .More { float: left; }
+#Content #NewsPanelHolder #NewsPanelInner dl dd .More { /*width: 170px;*/ width: 30px; padding: 30px 10px 0 20px; }
+#Content #NewsPanelHolder #NewsPanelInner dl dd .More a { float: left; }
+#Content #NewsPanelHolder #NewsPanelInner dl dd span { /*width: 590px;*/ width: 710px; color: #ccc; }
+/*#Content #NewsPanelHolder #NewsPanelInner dl dd .More a { background:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/buttons/circle_arrow_yellow.gif") no-repeat 0 -66px; width: 66px; height: 66px; text-indent: -99999px; }*/
+#Content #NewsPanelHolder #NewsPanelInner dl dd .More a { height: 22px; width: 34px; padding: 12px 0 0 0; color: #feae01; text-decoration: none; text-transform: uppercase; background:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/buttons/circle_arrow_grey.gif") no-repeat 100% -34px; text-indent: -99999px; }
+
+#Content #NewsPanelHolder #NewsPanelInner dl dd .More a:hover { color: #999; background-position: 100% 0; }
+#Content #NewsPanelHolder #NewsPanelInner dl dd span p { padding: 0 0 5px 0; }
+#Content #NewsPanelHolder #NewsPanelInner dl dd span strong { color: #fff; font-weight: normal; font-size: 130%; }
+
+/* NEWS ARTICLE PAGE */
+#Content #NewsArticle { clear: both; width: 884px; margin: 0 0 0 46px; background:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/panels/article_top.gif") no-repeat 0 0; padding: 5px 0 0 0; }
+html > body #Content #NewsArticle { margin: 0 auto; }
+#Content #NewsArticle #NewsArticleHolder { width: 100%; background:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/panels/article_bottom.gif") no-repeat 0 100%; padding: 0 0 5px 0; }
+#Content #NewsArticle #NewsArticleHolder .Content, #Content #NewsArticle #NewsArticleHolder .Content .Left, #Content #NewsArticle #NewsArticleHolder dd { margin: 0; padding: 0; display: block; }
+#Content #NewsArticle #NewsArticleHolder .Content { clear: both; padding: 5px 0; width: 100%; background:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/panels/article_middle.gif") repeat-y 0 0; }
+#Content #NewsArticle #NewsArticleHolder .Content .Left, #Content #NewsArticle #NewsArticleHolder .Content .Right { float: left; display: block; position: relative; }
+#Content #NewsArticle #NewsArticleHolder .Content .Left { padding: 0 0 0 12px; margin: 0 2px 0 0; width: 190px; }
+#Content #NewsArticle #NewsArticleHolder .Content .Right { padding: 0 10px; width: 640px; height: 500px; }
+html > body #Content #NewsArticle #NewsArticleHolder .Content .Right { height: auto; min-height: 500px; }
+
+/* NEWS ARTICLE PAGE ELEMENTS */
+#Content #NewsArticle #NewsArticleHolder .Content .Left h2 { padding: 0 0 20px 0; }
+#Content #NewsArticle #NewsArticleHolder .Content .Left ul, #Content #NewsArticle #NewsArticleHolder .Content .Left ul li { margin: 0; padding: 0; list-style: none; }
+#Content #NewsArticle #NewsArticleHolder .Content .Left ul li { margin: 0 0 15px 0; color: #666; }
+#Content #NewsArticle #NewsArticleHolder .Content .Left ul li a { color: #fff; text-decoration: none; padding: 0 0 2px 0; }
+#Content #NewsArticle #NewsArticleHolder .Content .Left ul li a:hover { color: #fc0; }
+#Content #NewsArticle #NewsArticleHolder .Content .Right h2 { padding: 0 0 5px 0; }
+#Content #NewsArticle #NewsArticleHolder .Content .Right a { color: #fc0; }
+#Content #NewsArticle #NewsArticleHolder .Content .Right small { color: #666; }
+
+/* BLOG ARTICLE PAGE */
+#Content #BlogArticle { clear: both; width: 884px; margin: 0 0 0 46px; background:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/panels/blog_top.gif") no-repeat 0 0; padding: 5px 0 0 0; }
+html > body #Content #BlogArticle { margin: 0 auto; }
+#Content #BlogArticle #BlogArticleHolder { width: 100%; background:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/panels/blog_bottom.gif") no-repeat 0 100%; padding: 0 0 5px 0; }
+#Content #BlogArticle #BlogArticleHolder .Content, #Content #BlogArticle #BlogArticleHolder .Content .Right, #Content #BlogArticle #BlogArticleHolder .Left { margin: 0; padding: 0; display: block; }
+#Content #BlogArticle #BlogArticleHolder .Content { padding: 5px 0; width: 100%; background:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/panels/blog_middle.gif") repeat-y 0 0; }
+#Content #BlogArticle #BlogArticleHolder .Content .Right, #Content #BlogArticle #BlogArticleHolder .Content .Left { float: left; }
+#Content #BlogArticle #BlogArticleHolder .Content .Right { padding: 0 10px 0 15px; margin: 0 0 0 16px; width: 183px; }
+#Content #BlogArticle #BlogArticleHolder .Content .Left { padding: 0 15px; width: 630px; height: 500px; }
+html > body #Content #BlogArticle #BlogArticleHolder .Content .Left { height: auto; min-height: 500px; }
+
+/* BLOG ARTICLE PAGE ELEMENTS */
+#Content #BlogArticle #BlogArticleHolder .Content h2 { color: #fff; }
+#Content #BlogArticle #BlogArticleHolder .Content .Right h2 { padding: 0 0 20px 0; font-size: 140%; }
+#Content #BlogArticle #BlogArticleHolder .Content .Right ul, #Content #BlogArticle #BlogArticleHolder .Content .Right ul li { margin: 0; padding: 0; list-style: none; }
+#Content #BlogArticle #BlogArticleHolder .Content .Right ul li { margin: 0 0 5px 0; color: #666; }
+#Content #BlogArticle #BlogArticleHolder .Content .Right ul li a { float: left; display: block; color: #fff; text-decoration: none; padding: 0 0 10px 20px; background:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/buttons/arrow_yellow_small.gif") no-repeat 0 0; }
+#Content #BlogArticle #BlogArticleHolder .Content .Right ul li a:hover { background-position: 5px 0; }
+#Content #BlogArticle #BlogArticleHolder .Content .Right ul .PodCast a { background-image:url(/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/buttons/ipod.gif); }
+#Content #BlogArticle #BlogArticleHolder .Content .Right ul .PodCast a:hover { background-position: 0 0; }
+#Content #BlogArticle #BlogArticleHolder .Content .Right ul li a:hover { color: #fc0; }
+#Content #BlogArticle #BlogArticleHolder .Content .Left h2 { padding: 0 0 5px 0; }
+#Content #BlogArticle #BlogArticleHolder .Content .Left small { color: #666; }
+#Content #BlogArticle #BlogArticleHolder .Content dl, #Content #BlogArticle #BlogArticleHolder .Content dl dt, #Content #BlogArticle #BlogArticleHolder .Content dl dd { margin: 0; padding: 0; width: 100%; }
+#Content #BlogArticle #BlogArticleHolder .Content dl { border-bottom: solid 1px #333; margin: 10px 0; overflow: auto; }
+#Content #BlogArticle #BlogArticleHolder .Content dl dt { text-align: right; color: #ccc; }
+#Content #BlogArticle #BlogArticleHolder .Content dl dt strong { float: left; font-size: 130%; font-weight: normal; }
+#Content #BlogArticle #BlogArticleHolder .Content dl dd { clear: both; padding: 0 0 10px 0; }
+html > body #Content #BlogArticle #BlogArticleHolder .Content dl dd { height: auto; min-height: 10px; }
+#Content #BlogArticle #BlogArticleHolder .Content dl dd p { padding: 0 0 10px 0; }
+#Content #BlogArticle #BlogArticleHolder .Content dl dd .Author { font-size: 83%; }
+#Content #BlogArticle #BlogArticleHolder .Content dl dd a { color: #666; text-decoration: none; background:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/buttons/arrow_grey_small.gif") no-repeat 0 -20px; padding: 3px 0 3px 25px; }
+#Content #BlogArticle #BlogArticleHolder .Content dl dd a:hover { background-position: 0 0; color: #999; }
+#Content #BlogArticle #BlogArticleHolder .Content .Download a { color: #fff; background:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/buttons/download.gif") no-repeat 0 0; padding: 5px 0 10px 24px; text-decoration: none; }
+#Content #BlogArticle #BlogArticleHolder .Content hr { margin: 5px 0 10px 0; border: none; color: #666; border-bottom: solid 1px #666; }
+#Content #BlogArticle #BlogArticleHolder .Content .PodAudio { margin: 0 0 20px 0; }
+
+/* Game Cols */
+#Content .GameCol1, #Content .GameCol2, #Content .GameCol3 { float: left; display: block; width: 283px; }
+#Content .GameCol1, #Content .GameCol2 { margin: 0 18px 0 0; }
+#Content .GameCol1 { clear: both; margin-left: 11px; }
+html > body #Content .GameCol1 { margin-left: 22px; }
+
+/* WORLD FAMOUS EXPANDING BOX */
+#Content .ExpandoBox { clear: both; width: 884px; margin: 0 auto 10px auto; background:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/panels/expando_top.gif") no-repeat 0 0; padding: 5px 0 0 0; overflow: hidden; }
+#Content .ExpandoBox .ExpandoHolder { width: 100%; background:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/panels/expando_bottom.gif") no-repeat 0 100%; padding: 0 0 5px 0; }
+#Content .ExpandoBox .ExpandoHolder .ExpandoContent { clear: both; padding: 10px 15px; width: 854px; background:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/panels/expando_middle.gif") repeat-y 0 0; }
+#Content .ExpandoBox .ExpandoHolder .ExpandoContent img { border: solid 1px #666; }
+#Content .ExpandoBox .ExpandoHolder .ExpandoContent .Back { clear: both; padding: 10px 0; display: block; }
+#Content .ExpandoBox .ExpandoHolder .ExpandoContent .Back a { clear: both; float: right; padding: 10px 0 0 44px; height: 24px; background:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/buttons/back.gif") no-repeat 0 -34px; color: #feae01; text-decoration: none; }
+#Content .ExpandoBox .ExpandoHolder .ExpandoContent .Back a:hover { color: #999; background-position: 0 0; }
+
+#Content .ExpandoBox .ExpandoHolder .ExpandoContent .ExpandoLeft, #Content .ExpandoBox .ExpandoHolder .ExpandoContent .ExpandoRight { float: left; display: block; width: 425px; }
+#Content .ExpandoBox .ExpandoHolder .ExpandoContent .ExpandoLeft { width: 399px; padding: 0 30px 0 0; }
+#Content .ExpandoBox .ExpandoHolder .ExpandoContent .ExpandoLeft .Label { width: 170px; clear: both;}
+#Content .ExpandoBox .ExpandoHolder .ExpandoContent .ExpandoLeft .Block { float: left; width: 219px; display: block; }
+#Content .ExpandoBox .ExpandoHolder .ExpandoContent .ExpandoRight { width: 425px; text-align: right; }
+#Content .ExpandoBox .ExpandoHolder .ExpandoContent .ExpandoRight p { padding: 0 0 10px 0; font-size: 90%; }
+#Content .ExpandoBox .ExpandoHolder .ExpandoContent .ExpandoRight img { border: none; }
+
+/* Character Nav */
+#Content .ExpandoBox .ExpandoHolder #CharacterNav { margin: 0; padding: 5px 0 5px 11px; width: 875px; list-style: none; background:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/panels/expando_middle.gif") repeat-y 0 0; height: 35px; }
+#Content .ExpandoBox .ExpandoHolder #CharacterNav li { float: left; display: block; height: 35px; margin: 0 3px 0 0; vertical-align: middle; }
+#Content .ExpandoBox .ExpandoHolder #CharacterNav li a { float: left; display: block; padding: 10px 0 0 0; height: 25px; text-align: center; background-repeat: no-repeat; background-position: 0 0; color: #fff; width: 121px; color: #fff; text-decoration: none; text-transform: uppercase; }
+#Content .ExpandoBox .ExpandoHolder #CharacterNav li a:hover { background-position: 0 -35px; }
+
+#Content .ExpandoBox .ExpandoHolder #CharacterNav .Batman a { background-image:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/buttons/batman.gif"); }
+#Content .ExpandoBox .ExpandoHolder #CharacterNav .ComissionerGordon a { background-image:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/buttons/gordon.gif"); padding: 3px 0 0 0; height: 32px; }
+#Content .ExpandoBox .ExpandoHolder #CharacterNav .TheJoker a { background-image:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/buttons/the_joker.gif"); }
+#Content .ExpandoBox .ExpandoHolder #CharacterNav .HarleyQuinn a  { background-image:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/buttons/harley_quinn.gif"); }
+#Content .ExpandoBox .ExpandoHolder #CharacterNav .Bane a { background-image:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/buttons/bane.gif"); }
+#Content .ExpandoBox .ExpandoHolder #CharacterNav .KillerCroc a { background-image:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/buttons/killer_croc.gif"); }
+#Content .ExpandoBox .ExpandoHolder #CharacterNav .Zsasz a { background-image:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/buttons/zsasz.gif"); }
+
+/* Media Page */
+#Content .ExpandoBox .ExpandoHolder .MediaVideos { width: 864px; padding: 10px; }
+#Content .ExpandoBox .ExpandoHolder .MediaVideos h1 { padding-left: 10px; }
+#Content .ExpandoBox .ExpandoHolder .MediaVideos #TV { float: left; width: 514px; height:320px; }
+#Content .ExpandoBox .ExpandoHolder .MediaVideos #TV img { border: none; }
+#Content .ExpandoBox .ExpandoHolder .MediaVideos #Remote { float: left; padding: 0 10px; width: 330px; }
+#Content .ExpandoBox .ExpandoHolder .MediaVideos #Remote dl, #Content .ExpandoBox .ExpandoHolder .MediaVideos #Remote dl dt, #Content .ExpandoBox .ExpandoHolder .MediaVideos #Remote dl dd { margin: 0; padding: 0; }
+#Content .ExpandoBox .ExpandoHolder .MediaVideos #Remote dl { clear: both; overflow: hidden; margin: 0 0 5px 0; }
+#Content .ExpandoBox .ExpandoHolder .MediaVideos #Remote dl dt, #Content .ExpandoBox .ExpandoHolder .MediaVideos #Remote dl dd { float: left; }
+#Content .ExpandoBox .ExpandoHolder .MediaVideos #Remote dl dt { width: 119px; }
+#Content .ExpandoBox .ExpandoHolder .MediaVideos #Remote dl dt img { border: solid 1px #666; }
+#Content .ExpandoBox .ExpandoHolder .MediaVideos #Remote dl dd { padding: 10px 0 0 0; width: 210px; color: #666; }
+#Content .ExpandoBox .ExpandoHolder .MediaVideos #Remote dl dd strong { color: #fff; font-size: 130%; font-weight: normal; }
+
+#Content .ExpandoBox .ExpandoHolder .MediaScreenShots ul { float: left; width: 100%; margin: 0; padding: 0; list-style: none; }
+#Content .ExpandoBox .ExpandoHolder .MediaScreenShots ul li { float: left; display: block; margin: 0 15px 10px 0; }
+
+/* Download Page */
+#Content .ExpandoBox .ExpandoHolder .DownWallPapers h1, #Content .ExpandoBox .ExpandoHolder .DownScreensavers h1, #Content .ExpandoBox .ExpandoHolder .DownMobileWallPapers h1 { margin: 0 0 0 10px; }
+#Content .ExpandoBox .ExpandoHolder .DownWallPapers p, #Content .ExpandoBox .ExpandoHolder .DownScreensavers p, #Content .ExpandoBox .ExpandoHolder .DownMobileWallPapers p { clear: both; text-align: center; color: #999; text-transform: uppercase; }
+#Content .ExpandoBox .ExpandoHolder .DownWallPapers ul, #Content .ExpandoBox .ExpandoHolder .DownScreensavers ul, #Content .ExpandoBox .ExpandoHolder .DownMobileWallPapers ul { margin: 0 0 10px 0; padding: 0; list-style: none; }
+#Content .ExpandoBox .ExpandoHolder .DownWallPapers ul li, #Content .ExpandoBox .ExpandoHolder .DownScreensavers ul li, #Content .ExpandoBox .ExpandoHolder .DownMobileWallPapers ul li { float: left; display: block; margin: 0 0 0 10px; }
+#Content .ExpandoBox .ExpandoHolder .DownScreensavers ul li { margin-right: 6px; }
+#Content .ExpandoBox .ExpandoHolder .DownWallPapers ul li { width: 198px; }
+#Content .ExpandoBox .ExpandoHolder .DownMobileWallPapers ul li { width: 176px; margin-right: 25px; }
+#Content .ExpandoBox .ExpandoHolder .DownWallPapers ul li ul, #Content .ExpandoBox .ExpandoHolder .DownMobileWallPapers ul li ul { clear: both; margin: 5px auto 0 auto; text-align: center; }
+#Content .ExpandoBox .ExpandoHolder .DownWallPapers ul li ul { width: 198px; }
+#Content .ExpandoBox .ExpandoHolder .DownMobileWallPapers ul li ul { width: 176px; }
+#Content .ExpandoBox .ExpandoHolder .DownWallPapers ul li ul li, #Content .ExpandoBox .ExpandoHolder .DownMobileWallPapers ul li ul li { float: none; display: inline; margin: 0 0 0 5px; width: auto; }
+#Content .ExpandoBox .ExpandoHolder .DownWallPapers ul li ul li a, #Content .ExpandoBox .ExpandoHolder .DownMobileWallPapers ul li ul li a { color: #fff; text-decoration: none; font-size: 90%; }
+
+/* GAME FEATURES */
+#Content .ExpandoBox .ExpandoHolder .KeyFeatures dl, #Content .ExpandoBox .ExpandoHolder .KeyFeatures dl dt, #Content .ExpandoBox .ExpandoHolder .KeyFeatures dl dd { margin: 0; padding: 0; }
+#Content .ExpandoBox .ExpandoHolder .KeyFeatures dl { clear: both; padding: 0; margin: 0; width: 100%; }
+#Content .ExpandoBox .ExpandoHolder .KeyFeatures dl dt, #Content .ExpandoBox .ExpandoHolder .KeyFeatures dl dd { float: left; display: block; }
+#Content .ExpandoBox .ExpandoHolder .KeyFeatures dl dt { width: 266px; }
+#Content .ExpandoBox .ExpandoHolder .KeyFeatures dl dd { padding: 10px 20px; width: 528px; }
+
+/* PURCHASE PAGE */
+#Content .ExpandoBox .ExpandoHolder .Purchase { padding: 0; width: 884px; }
+#Content .ExpandoBox .ExpandoHolder .Purchase .SilverPlated { float: left; display: block; background:url(/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/general/preorder_title.gif) no-repeat 50% 0; width: 876px; height: 44px; text-align: center; color: #fff; padding: 15px 0; margin: 0 4px 20px 4px; text-transform: uppercase; }
+#Content .ExpandoBox .ExpandoHolder .Purchase .SilverPlated strong { color: #fc0; }
+#Content .ExpandoBox .ExpandoHolder .Purchase img { border: none; }
+#Content .ExpandoBox .ExpandoHolder .Purchase dl, #Content .ExpandoBox .ExpandoHolder .Purchase dl dt, #Content .ExpandoBox .ExpandoHolder .Purchase dl dd { margin: 0; padding: 0; }
+#Content .ExpandoBox .ExpandoHolder .Purchase ul { margin: 0; padding: 0; list-style: none; }
+#Content .ExpandoBox .ExpandoHolder .Purchase .Platforms { margin: 0 0 20px 0; padding: 15px 0; }
+#Content .ExpandoBox .ExpandoHolder .Purchase .Platforms li { display: inline; margin: 0 60px; }
+
+/* US PRE ORDER PAGE */
+#Content .ExpandoBox .ExpandoHolder .Purchase .USPurchase .MetalFrame { clear: both; width: 634px; height: 287px; height: 246px; margin: 0 auto 20px auto; }
+#Content .ExpandoBox .ExpandoHolder .Purchase .USPurchase .MetalFrame p { text-align: center; padding: 0; margin: 0; float: left; display: block; }
+#Content .ExpandoBox .ExpandoHolder .Purchase .USPurchase .MetalFrame .MetalFrameTop { height: 60px; width: 100%; background:url(/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/panels/metal_frame_top.gif) no-repeat 0 0; }
+#Content .ExpandoBox .ExpandoHolder .Purchase .USPurchase .MetalFrame p { height: 145px; width: 560px; padding: 0 37px; background:url(/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/panels/metal_frame_middle.gif) no-repeat 0 0; }
+#Content .ExpandoBox .ExpandoHolder .Purchase .USPurchase .MetalFrame ul { clear: both; float: left; list-style: none; padding: 30px 0 0 0; width: 100%; background:url(/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/panels/metal_frame_bottom.gif) no-repeat 0 0; }
+#Content .ExpandoBox .ExpandoHolder .Purchase .USPurchase .MetalFrame ul li { float: left; display: block; margin: 0 10px; display: none; }
+html > body #Content .ExpandoBox .ExpandoHolder .Purchase .USPurchase .MetalFrame ul li { margin: 0 11px; }
+
+/* CENTRE POSITIONING */
+#Content .ExpandoBox .ExpandoHolder .Purchase .USPurchase .MetalFrame .Eidos img { padding: 20px 0 0 0; }
+#Content .ExpandoBox .ExpandoHolder .Purchase .USPurchase .MetalFrame .GameStop img { padding: 28px 0 0 0; }
+#Content .ExpandoBox .ExpandoHolder .Purchase .USPurchase .MetalFrame .Amazon img { padding: 33px 0 0 0; }
+#Content .ExpandoBox .ExpandoHolder .Purchase .USPurchase .MetalFrame .BestBuy img { padding: 14px 0 0 0; }
+#Content .ExpandoBox .ExpandoHolder .Purchase .USPurchase .MetalFrame .Target img { padding: 27px 0 0 0; }
+#Content .ExpandoBox .ExpandoHolder .Purchase .USPurchase .MetalFrame .ToysRUs img { padding: 20px 0 0 0; }
+#Content .ExpandoBox .ExpandoHolder .Purchase .USPurchase .MetalFrame .GameCrazy img { padding: 15px 0 0 0; }
+#Content .ExpandoBox .ExpandoHolder .Purchase .USPurchase .MetalFrame .BlockBuster img { padding: 8px 0 0 0; }
+#Content .ExpandoBox .ExpandoHolder .Purchase .USPurchase .MetalFrame .WallMart img { padding: 17px 0 0 0; }
+#Content .ExpandoBox .ExpandoHolder .Purchase .USPurchase .MetalFrame .Steam img { padding: 17px 0 0 0; }
+
+
+/* UK PRE ORDER PAGE */
+#Content .ExpandoBox .ExpandoHolder .Purchase .UKPurchase h2 { text-align: center; }
+#Content .ExpandoBox .ExpandoHolder .Purchase .UKPurchase .OrderBox { clear: both; width: 854px; margin: 0 auto 10px auto; background:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/panels/order_top.gif") no-repeat 0 0; padding: 15px 0 0 0; }
+#Content .ExpandoBox .ExpandoHolder .Purchase .UKPurchase .OrderBox .OrderHolder { width: 100%; background:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/panels/order_bottom.gif") no-repeat 0 100%; padding: 0 0 15px 0; }
+#Content .ExpandoBox .ExpandoHolder .Purchase .UKPurchase .OrderBox .OrderHolder .OrderContent { clear: both; padding: 10px 0; width: 100%; background:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/panels/order_middle.gif") repeat-y 0 0; }
+#Content .ExpandoBox .ExpandoHolder .Purchase .UKPurchase .OrderBox .OrderHolder .OrderContent p { text-align: center; padding: 0; }
+#Content .ExpandoBox .ExpandoHolder .Purchase .UKPurchase .OrderBox .OrderHolder .OrderContent .Retailer { padding: 0 0 10px 150px; }
+#Content .ExpandoBox .ExpandoHolder .Purchase .UKPurchase .OrderBox .OrderHolder .OrderContent img { border: none; }
+#Content .ExpandoBox .ExpandoHolder .ExpandoContent .PlatformPanel { margin: 10px auto; background:url(/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/panels/platform_panel.gif) no-repeat 0 0; width: 795px; height: 63px; }
+
+/* AUSTRALIAN PRE ORDER PAGE */
+#Content .ExpandoBox .ExpandoHolder .Purchase .AUPurchase { text-align: center; }
+#Content .ExpandoBox .ExpandoHolder .Purchase .AUPurchase .SilverPlated { padding: 10px 0 0 0; height: 78px; font-weight: normal; font-size: 180%; }
+#Content .ExpandoBox .ExpandoHolder .Purchase .AUPurchase .SilverPlated strong { font-weight: normal; }
+#Content .ExpandoBox .ExpandoHolder .Purchase .AUPurchase dl, #Content .ExpandoBox .ExpandoHolder .Purchase .AUPurchase .OnOwn { margin: 0 auto 30px auto; width: 635px; clear: both; }
+#Content .ExpandoBox .ExpandoHolder .Purchase .AUPurchase dl dt { background:url(/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/panels/au_purchase_top.gif) no-repeat 0 0; text-align: center; padding: 30px 0 0 0; height: 71px; }
+#Content .ExpandoBox .ExpandoHolder .Purchase .AUPurchase .JB dt { padding-top: 10px; height: 91px; }
+#Content .ExpandoBox .ExpandoHolder .Purchase .AUPurchase dl dd { padding: 10px 0 0 0; background:url(/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/panels/au_purchase_bottom.gif) no-repeat 0 0; height: 70px; }
+#Content .ExpandoBox .ExpandoHolder .Purchase .AUPurchase dl dd .Platforms li { margin: 0 30px; }
+
+/* ITALIAN PRE ORDER PAGE */
+#Content .ExpandoBox .ExpandoHolder .Purchase .ITPurchase { padding: 20px; width: 784px; }
+#Content .ExpandoBox .ExpandoHolder .Purchase .ITPurchase .Companies { float: left; margin: 20px 139px; width: 506px; }
+#Content .ExpandoBox .ExpandoHolder .Purchase .ITPurchase .Companies li { float: left; display: block; font-size: 150%; }
+#Content .ExpandoBox .ExpandoHolder .Purchase .ITPurchase .Companies .iGamer { padding: 20px 0 0 0; text-align: center; }
+#Content .ExpandoBox .ExpandoHolder .Purchase .ITPurchase .Companies .iGamer img { margin: 0 0 10px 0; }
+#Content .ExpandoBox .ExpandoHolder .Purchase .ITPurchase .Companies li span { float: left; padding: 70px; }
+#Content .ExpandoBox .ExpandoHolder .Purchase .ITPurchase h1 { text-align: center; font-weight: normal; font-size: 150%; text-transform: none; }
+#Content .ExpandoBox .ExpandoHolder .Purchase .ITPurchase h2 { clear: both; text-align: center; color: #fc0; text-align: center; padding: 0 0 20px 0; font-weight: normal; font-size: 133%; }
+#Content .ExpandoBox .ExpandoHolder .Purchase .ITPurchase h3 { clear: both; text-align: center; color: #fff; padding: 0 0 10px 0; margin: 10px 0 20px 0; font-weight: normal; font-size: 150%; }
+#Content .ExpandoBox .ExpandoHolder .Purchase .ITPurchase h4 { clear: both; text-align: center; color: #999; font-weight: normal; font-size: 115%; }
+#Content .ExpandoBox .ExpandoHolder .Purchase .ITPurchase .ITCol1, #Content .ExpandoBox .ExpandoHolder .Purchase .ITPurchase .ITCol2 { float: left; display: block; width: 250px; padding: 0 75px 10px 0; }
+#Content .ExpandoBox .ExpandoHolder .Purchase .ITPurchase strong { color: #fc0; font-weight: normal; }
+#Content .ExpandoBox .ExpandoHolder .Packs { float: left; width: 767px; margin: 10px 0; }
+#Content .ExpandoBox .ExpandoHolder .Packs li { float: left; display: block; }
+#Content .ExpandoBox .ExpandoHolder .Purchase .ITPurchase .ITCol1, #Content .ExpandoBox .ExpandoHolder .Purchase .ITPurchase .PushMe { margin-left: 75px; }
+#Content .ExpandoBox .ExpandoHolder .Purchase .ITPurchase .ITCol1 li, #Content .ExpandoBox .ExpandoHolder .Purchase .ITPurchase .ITCol2 li, #Content .ExpandoBox .ExpandoHolder .Purchase .ITPurchase .PushMe li { margin: 0 0 10px 0; }
+#Content .ExpandoBox .ExpandoHolder .Purchase .ITPurchase .ITCol1 li ul, #Content .ExpandoBox .ExpandoHolder .Purchase .ITPurchase .ITCol2 li ul { margin: 0 0 0 25px; }
+
+/* SPANISH PRE ORDER PAGE */
+#Content .ExpandoBox .ExpandoHolder .Purchase .ESPurchase { margin: 0 auto; padding: 20px 0; width: 885px; height: 427px; }
+#Content .ExpandoBox .ExpandoHolder .Purchase .ESPurchase h1 { padding: 20px 0 0 320px; float: left; width: 569px; height: 86px; color: #fff; background: no-repeat 100% 0; margin: 0 0 30px 0; font-size: 320%; }
+#Content .ExpandoBox .ExpandoHolder .Purchase .ESPurchase dl { float: left; clear: none; width: 185px; margin: 0 340px; }
+
+#holdtype{float:left; margin-right:2px;}
+#specialCol {margin-left:20px; margin-top:40px; width:778px; height:364px; background:#003366;}
+
+html > body #Content .ExpandoBox .ExpandoHolder .Purchase .ESPurchase dl { margin: 0 55px; }
+#Content .ExpandoBox .ExpandoHolder .Purchase .ESPurchase dl dt, #Content .ExpandoBox .ExpandoHolder .Purchase .ESPurchase dl dd { padding: 0 0 10px 0; text-align: center; }
+#Content .ExpandoBox .ExpandoHolder .Purchase .ESPurchase dl dt { height: 252px; }
+#Content .ExpandoBox .ExpandoHolder .Purchase .ESPurchase dl dd { text-align: center; }
+#Content .ExpandoBox .ExpandoHolder .Purchase .ESPurchase dl .Playstation3 { padding-top: 36px; height: 216px; }
+
+/* BOOK MARKS */
+#Content .Bookmarks { clear: both; padding: 20px 0; }
+#Content .Bookmarks ul { margin: 0; padding: 0 15px 0 0; list-style: none; width: 210px; float: left; }
+#Content .Bookmarks ul li { float: left; display: block; width: 16px; height: 16px; margin: 0 5px 0 0; }
+#Content .Bookmarks ul li a { background-repeat: no-repeat; background-position: 0 0; float: left; width: 16px; height: 16px; text-indent: -99999px; }
+#Content .Bookmarks ul li a:hover { background-position: 0 -16px; }
+#Content .Bookmarks ul .Delicious a { background-image: url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/share_icons/delicious.gif"); }
+#Content .Bookmarks ul .Digg a { background-image: url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/share_icons/digg.gif"); }
+#Content .Bookmarks ul .Facebook a { background-image: url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/share_icons/facebook.gif"); }
+#Content .Bookmarks ul .Furl a { background-image: url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/share_icons/furl.gif"); }
+#Content .Bookmarks ul .Google a { background-image: url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/share_icons/google.gif"); }
+#Content .Bookmarks ul .Magnolia a { background-image: url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/share_icons/magnolia.gif"); }
+#Content .Bookmarks ul .Newsvine a { background-image: url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/share_icons/newsvine.gif"); }
+#Content .Bookmarks ul .Reddit a { background-image: url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/share_icons/reddit.gif"); }
+#Content .Bookmarks ul .Technorati a { background-image: url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/share_icons/technorati.gif"); }
+#Content .Bookmarks ul .Yahoo a { background-image: url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/share_icons/yahoo.gif"); }
+
+/* NEWS ARTICLES BOOK MARKS */
+#Content #NewsArticle #NewsArticleHolder .Bookmarks ul { float: right; }
+
+/* COMPETITION PAGE */
+#Content .ExpandoBox .ExpandoHolder .Description { clear: both; color: #feae01; font-weight: bold; }
+#Content .ExpandoBox .ExpandoHolder #CompForm, #Content .ExpandoBox .ExpandoHolder #CompRight { float: left; }
+#Content .ExpandoBox .ExpandoHolder #CompForm { width: 390px; }
+#Content .ExpandoBox .ExpandoHolder #CompRight { width: 464px; height: 512px; padding: 17px 0 0 0; background:url(/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/panels/comp_back.gif) no-repeat 0 0; text-align: center; }
+
+/* FORM */
+#Content .ExpandoBox .ExpandoHolder #CompForm label { width: 146px; }
+#Content .ExpandoBox .ExpandoHolder #CompForm input, #Content .ExpandoBox .ExpandoHolder #CompForm select { width: 206px; }
+#Content .ExpandoBox .ExpandoHolder #CompForm .Day, #Content .ExpandoBox .ExpandoHolder #CompForm .Month, #Content .ExpandoBox .ExpandoHolder #CompForm .Year { width: auto; }
+#Content .ExpandoBox .ExpandoHolder #CompForm .CheckBox { width: auto; }
+#Content .ExpandoBox .ExpandoHolder #CompForm a { color: #fff; }
+
+/* COMP PRIZES */
+#Content .ExpandoBox .ExpandoHolder #CompRight img { border: none; }
+#Content .ExpandoBox .ExpandoHolder #CompRight ul { margin: 0 37px; padding: 0; list-style: none; float: left; height: 79px; }
+#Content .ExpandoBox .ExpandoHolder #CompRight ul li { float: left; display: block; width: 110px; height: 79px; margin: 0 10px; }
+#Content .ExpandoBox .ExpandoHolder #CompRight ul li a { float: left; display: block; width: 108px; height: 77px; border: solid 1px #666; }
+#Content .ExpandoBox .ExpandoHolder #CompRight #Prizes { clear: both; width: 464px; height:403px; padding: 15px 0; text-align: center; }
+
+/* FOOTER ELEMENTS */
+#Footer #FooterInner { width: 930px; margin: 0 auto; overflow: auto; }
+#Footer #FooterInner ul { padding: 0; list-style: none; }
+#Footer #FooterInner .Partners { margin: 0 0 30px 180px; width: auto; }
+#Footer #FooterInner .Partners li { display: inline; margin: 0 30px; vertical-align: middle; font-family: impact; color: #ccc; font-size: 200%; }
+#Footer #FooterInner .Partners li span { float: left; padding-top: 10px; }
+#Footer #FooterInner .Logos { margin: 0 0 20px 0; float: left; width: 100%; }
+#Footer #FooterInner .Logos  li { float: left; display: block; padding: 0 60px 0 0; }
+#Footer #FooterInner .Logos .Last { padding: 0; }
+
+#Footer #FooterInner dl, #Footer #FooterInner dl dt, #Footer #FooterInner dl dd { margin: 0; padding: 0; }
+#Footer #FooterInner dl { width: 100%; }
+#Footer #FooterInner dl dt, #Footer #FooterInner dl dd { float: left; display: block; }
+#Footer #FooterInner dl dt { padding: 30px 0 0 0; width: 300px; }
+#Footer #FooterInner dl dd { width: 627px; }
+#Footer #FooterInner .FullLength dd { width: 927px; }
+#Footer #FooterInner dl dd ul li { margin: 0; padding: 0 32px; }
+#Footer #FooterInner dl dd p { clear: both; padding: 0 0 10px 0; }
+#Footer #FooterInner dl dd .Batman, #Footer #FooterInner dl dd .WB { padding: 0 0 3px 28px; }
+#Footer #FooterInner dl dd .Batman { background:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/logos/batman.gif") no-repeat 0 0; }
+#Footer #FooterInner dl dd .WB { background:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/logos/wb_small.gif") no-repeat 0 0; padding-bottom: 8px; }
+#Footer .Disclaimer { margin: 10px auto; padding: 0; list-style: none; text-align: center; }
+#Footer .Disclaimer li { display: inline; padding: 0 10px; }
+#Footer .Disclaimer li a { color: #fff; }
+#Footer .ExtraSpace { height: 76px; }
+
+/* CUSTOM CLASSES */
+.PurchaseBack { padding: 80px 40px; }
+.PurchaseBack a { color: #fff; font-size: 120%; text-decoration: none; }
+.AlignCenter { text-align: center; }
+.EvenSpacing { padding: 15px 0; }
+.FloatLeft { float: left; padding: 0 20px 20px 0; }
+.FloatLeft img { border: solid 1px #666; }
+.CheckBox { width: auto; background: none; }
+
+
+/* Sliding carousel */
+.stepcarousel{
+position: relative; /*leave this value alone*/
+overflow: scroll; /*leave this value alone*/
+width: 330px; /*Width of Carousel Viewer itself*/
+height: 270px; /*Height should enough to fit largest content's height*/
+}
+.stepcarousel .belt{
+position: absolute; /*leave this value alone*/
+left: 0;
+top: 0;
+}
+.stepcarousel .panel{
+float: left; /*leave this value alone*/
+overflow: hidden; /*clip content that go outside dimensions of holding panel DIV*/
+width: 330px; /*Width of Carousel Viewer itself*/
+height: 270px; /*Height should enough to fit largest content's height*/
+}
+
+
+
+/* AWFUL CLEAR FIXES */
+#Content #BlogArticle #BlogArticleHolder .Content:after, #Content #NewsArticle #NewsArticleHolder .Content:after, #Content .ExpandoBox .ExpandoHolder .ExpandoContent:after, #Content .ExpandoBox .ExpandoHolder .ExpandoContent .ExpandoLeft .Block:after { content: "."; display: block; height: 0; clear: both; visibility:hidden; padding: 0; }
+html > body #Content #BlogArticle #BlogArticleHolder .Content, html > body #Content #NewsArticle #NewsArticleHolder .Content, html > body #Content .ExpandoBox .ExpandoHolder .ExpandoContent, html > body #Content .ExpandoBox .ExpandoHolder .ExpandoContent .ExpandoLeft .Block {height: 1%;}
+.ClearBoth { clear: both; }
+
+#dhtmltooltip { position: absolute; width: 150px; border: 1px solid #FF9900; padding: 2px; background-color: black; visibility: hidden; z-index: 100; text-align:left; /* 
+filter: progid:DXImageTransform.Microsoft.Shadow(color=gray,direction=135);*/ }
+
+/*
+     FILE ARCHIVED ON 00:33:37 Jan 02, 2010 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 13:27:31 Sep 11, 2020.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  exclusion.robots.policy: 0.292
+  CDXLines.iter: 33.869 (3)
+  esindex: 0.012
+  RedisCDXSource: 0.773
+  PetaboxLoader3.datanode: 76.279 (4)
+  captures_list: 184.69
+  exclusion.robots: 0.309
+  PetaboxLoader3.resolve: 98.603 (2)
+  load_resource: 65.743
+  LoadShardBlock: 144.55 (3)
+*/
