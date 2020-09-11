@@ -15,14 +15,14 @@ input, select, textarea { margin: 0; padding: 2px 4px; font-size: 90%; font-fami
 
 /* HOLDER ELEMENTS */
 #FlashBackground  { position: absolute; left: 0; top: 0; width: 100%; height: 100%; z-index:1; }
-#Page { margin: 0 auto; position: absolute; left: 0; top: 0; width: 100%; height: 100%; z-index:2; background:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/general/navigation.gif") no-repeat 50% 103px; }
+#Page { margin: 0 auto; position: absolute; left: 0; top: 0; width: 100%; height: 100%; z-index:2; background:url("/arkhamasylum/data/assets/batmanadmin/images/general/navigation.gif") no-repeat 50% 103px; }
 #Header, #Navigation { font-family: impact; }
 #Header { width: 919px; margin: 11px auto 0 auto; padding: 0 0 0 11px; height: 140px; }
 #Navigation { clear: both; width: 100%; height: 83px; } 
 html > body #Navigation { width: auto; min-width: 930px; }
 #Content { clear: both; padding: 5px 0; margin: 0 auto; width: 930px; height: 810px; }
 html > body #Content { height: auto; min-height: 810px; }
-#Footer { clear: both; margin: 0 auto; width: 100%; background: url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/general/footer.gif") no-repeat 50% 0 #000; padding: 120px 0 10px 0; color: #999; font-size: 80%; }
+#Footer { clear: both; margin: 0 auto; width: 100%; background: url("/arkhamasylum/data/assets/batmanadmin/images/general/footer.gif") no-repeat 50% 0 #000; padding: 120px 0 10px 0; color: #999; font-size: 80%; }
 html > body #Footer { width: auto; min-width: 930px; }
 
 /* HEADER ELEMENTS */
@@ -32,15 +32,15 @@ html > body #Footer { width: auto; min-width: 930px; }
 #Header #HeaderMain ul { margin: 0 0 5px 0; height: 15px; }
 #Header #HeaderMain ul li { float: left; display: block; width: 19px; height: 15px; margin: 0 5px 0 0; }
 #Header #HeaderMain ul li a { float: left; width: 19px; height: 15px; text-indent: -99999px; background-repeat: no-repeat; background-position: 0 0; }
-#Header #HeaderMain ul .UKEnglish a { background-image:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/flags/small/ukenglish.gif"); }
-#Header #HeaderMain ul .USEnglish a { background-image:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/flags/small/usenglish.gif"); }
-#Header #HeaderMain ul .AUEnglish a { background-image:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/flags/small/auenglish.gif"); }
-#Header #HeaderMain ul .German a { background-image:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/flags/small/german.gif"); }
-#Header #HeaderMain ul .Italian a { background-image:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/flags/small/italian.gif"); }
-#Header #HeaderMain ul .Spanish a { background-image:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/flags/small/spanish.gif"); }
-#Header #HeaderMain ul .French a { background-image:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/flags/small/french.gif"); }
+#Header #HeaderMain ul .UKEnglish a { background-image:url("/arkhamasylum/data/assets/batmanadmin/images/flags/small/ukenglish.gif"); }
+#Header #HeaderMain ul .USEnglish a { background-image:url("/arkhamasylum/data/assets/batmanadmin/images/flags/small/usenglish.gif"); }
+#Header #HeaderMain ul .AUEnglish a { background-image:url("/arkhamasylum/data/assets/batmanadmin/images/flags/small/auenglish.gif"); }
+#Header #HeaderMain ul .German a { background-image:url("/arkhamasylum/data/assets/batmanadmin/images/flags/small/german.gif"); }
+#Header #HeaderMain ul .Italian a { background-image:url("/arkhamasylum/data/assets/batmanadmin/images/flags/small/italian.gif"); }
+#Header #HeaderMain ul .Spanish a { background-image:url("/arkhamasylum/data/assets/batmanadmin/images/flags/small/spanish.gif"); }
+#Header #HeaderMain ul .French a { background-image:url("/arkhamasylum/data/assets/batmanadmin/images/flags/small/french.gif"); }
 #Header #HeaderMain p { clear: both; float: left; display: block; width: 270px; height: 113px; padding: 0; }
-#Header #HeaderMain p a { float: left; display: block; background:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/general/buy_now.gif") no-repeat 0 0; width: 184px; height: 73px; color: #fff; text-decoration: none; padding: 40px 0 0 86px; font-size: 150%; text-transform: uppercase; }
+#Header #HeaderMain p a { float: left; display: block; background:url("/arkhamasylum/data/assets/batmanadmin/images/general/buy_now.gif") no-repeat 0 0; width: 184px; height: 73px; color: #fff; text-decoration: none; padding: 40px 0 0 86px; font-size: 150%; text-transform: uppercase; }
 #Header #HeaderMain p a:hover { background-position: 0 -113px; }
 #Header #Logo { width: 387px; }
 
@@ -50,8 +50,8 @@ html > body #Footer { width: auto; min-width: 930px; }
 #Header #HeaderRight ul { margin: 0 0 2px 0; height: 21px; }
 #Header #HeaderRight ul li { display: inline; }
 #Header #HeaderRight ul li a { padding: 2px 0 3px 20px; margin: 0 5px; font-family: verdana; font-weight: bold; }
-#Header #HeaderRight ul .Facebook a { background-image:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/logos/facebook.gif"); }
-#Header #HeaderRight ul .MySpace a { background-image:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/logos/myspace.gif"); }
+#Header #HeaderRight ul .Facebook a { background-image:url("/arkhamasylum/data/assets/batmanadmin/images/logos/facebook.gif"); }
+#Header #HeaderRight ul .MySpace a { background-image:url("/arkhamasylum/data/assets/batmanadmin/images/logos/myspace.gif"); }
 #Header #HeaderRight #Advertise { height: 52px; padding: 3px 0 7px 7px; width: 211px; margin: 0 0 8px 0; /*background:url(/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/panels/advertising.gif) no-repeat 0 0;*/ }
 #Header #HeaderRight .Register { float: left; clear: both; clear: both; padding: 5px 0 0 0; width: 100%; height: 20px; }
 #Header #HeaderRight .Register a { background:url(/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/buttons/register.gif) no-repeat 10px 2px; padding: 0 0 0px 31px; width: 165px; margin-left:5px; text-transform: uppercase; font-size: 130%; }
