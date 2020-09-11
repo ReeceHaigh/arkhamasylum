@@ -151,7 +151,7 @@ html > body #Content .HomeCol1 { margin-left: 111px; }
 #Content #NewsPanelHolder #NewsPanelInner dl dd .More { /*width: 170px;*/ width: 30px; padding: 30px 10px 0 20px; }
 #Content #NewsPanelHolder #NewsPanelInner dl dd .More a { float: left; }
 #Content #NewsPanelHolder #NewsPanelInner dl dd span { /*width: 590px;*/ width: 710px; color: #ccc; }
-/*#Content #NewsPanelHolder #NewsPanelInner dl dd .More a { background:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/buttons/circle_arrow_yellow.gif") no-repeat 0 -66px; width: 66px; height: 66px; text-indent: -99999px; }*/
+/*#Content #NewsPanelHolder #NewsPanelInner dl dd .More a { background:url("/arkhamasylum/data/assets/batmanadmin/images/buttons/circle_arrow_yellow.gif") no-repeat 0 -66px; width: 66px; height: 66px; text-indent: -99999px; }*/
 #Content #NewsPanelHolder #NewsPanelInner dl dd .More a { height: 22px; width: 34px; padding: 12px 0 0 0; color: #feae01; text-decoration: none; text-transform: uppercase; background:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/buttons/circle_arrow_grey.gif") no-repeat 100% -34px; text-indent: -99999px; }
 
 #Content #NewsPanelHolder #NewsPanelInner dl dd .More a:hover { color: #999; background-position: 100% 0; }
@@ -245,13 +245,13 @@ html > body #Content .GameCol1 { margin-left: 22px; }
 #Content .ExpandoBox .ExpandoHolder #CharacterNav li a { float: left; display: block; padding: 10px 0 0 0; height: 25px; text-align: center; background-repeat: no-repeat; background-position: 0 0; color: #fff; width: 121px; color: #fff; text-decoration: none; text-transform: uppercase; }
 #Content .ExpandoBox .ExpandoHolder #CharacterNav li a:hover { background-position: 0 -35px; }
 
-#Content .ExpandoBox .ExpandoHolder #CharacterNav .Batman a { background-image:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/buttons/batman.gif"); }
-#Content .ExpandoBox .ExpandoHolder #CharacterNav .ComissionerGordon a { background-image:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/buttons/gordon.gif"); padding: 3px 0 0 0; height: 32px; }
-#Content .ExpandoBox .ExpandoHolder #CharacterNav .TheJoker a { background-image:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/buttons/the_joker.gif"); }
-#Content .ExpandoBox .ExpandoHolder #CharacterNav .HarleyQuinn a  { background-image:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/buttons/harley_quinn.gif"); }
-#Content .ExpandoBox .ExpandoHolder #CharacterNav .Bane a { background-image:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/buttons/bane.gif"); }
-#Content .ExpandoBox .ExpandoHolder #CharacterNav .KillerCroc a { background-image:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/buttons/killer_croc.gif"); }
-#Content .ExpandoBox .ExpandoHolder #CharacterNav .Zsasz a { background-image:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/buttons/zsasz.gif"); }
+#Content .ExpandoBox .ExpandoHolder #CharacterNav .Batman a { background-image:url("/arkhamasylum/data/assets/batmanadmin/images/buttons/batman.gif"); }
+#Content .ExpandoBox .ExpandoHolder #CharacterNav .ComissionerGordon a { background-image:url("/arkhamasylum/data/assets/batmanadmin/images/buttons/gordon.gif"); padding: 3px 0 0 0; height: 32px; }
+#Content .ExpandoBox .ExpandoHolder #CharacterNav .TheJoker a { background-image:url("/arkhamasylum/data/assets/batmanadmin/images/buttons/the_joker.gif"); }
+#Content .ExpandoBox .ExpandoHolder #CharacterNav .HarleyQuinn a  { background-image:url("/arkhamasylum/data/assets/batmanadmin/images/buttons/harley_quinn.gif"); }
+#Content .ExpandoBox .ExpandoHolder #CharacterNav .Bane a { background-image:url("/arkhamasylum/data/assets/batmanadmin/images/buttons/bane.gif"); }
+#Content .ExpandoBox .ExpandoHolder #CharacterNav .KillerCroc a { background-image:url("/arkhamasylum/data/assets/batmanadmin/images/buttons/killer_croc.gif"); }
+#Content .ExpandoBox .ExpandoHolder #CharacterNav .Zsasz a { background-image:url("/arkhamasylum/data/assets/batmanadmin/images/buttons/zsasz.gif"); }
 
 /* Media Page */
 #Content .ExpandoBox .ExpandoHolder .MediaVideos { width: 864px; padding: 10px; }
@@ -435,8 +435,8 @@ html > body #Content .ExpandoBox .ExpandoHolder .Purchase .ESPurchase dl { margi
 #Footer #FooterInner dl dd ul li { margin: 0; padding: 0 32px; }
 #Footer #FooterInner dl dd p { clear: both; padding: 0 0 10px 0; }
 #Footer #FooterInner dl dd .Batman, #Footer #FooterInner dl dd .WB { padding: 0 0 3px 28px; }
-#Footer #FooterInner dl dd .Batman { background:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/logos/batman.gif") no-repeat 0 0; }
-#Footer #FooterInner dl dd .WB { background:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/logos/wb_small.gif") no-repeat 0 0; padding-bottom: 8px; }
+#Footer #FooterInner dl dd .Batman { background:url("/arkhamasylum/data/assets/batmanadmin/images/logos/batman.gif") no-repeat 0 0; }
+#Footer #FooterInner dl dd .WB { background:url("/arkhamasylum/data/assets/batmanadmin/images/logos/wb_small.gif") no-repeat 0 0; padding-bottom: 8px; }
 #Footer .Disclaimer { margin: 10px auto; padding: 0; list-style: none; text-align: center; }
 #Footer .Disclaimer li { display: inline; padding: 0 10px; }
 #Footer .Disclaimer li a { color: #fff; }
