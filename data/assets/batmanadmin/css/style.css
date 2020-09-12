@@ -152,7 +152,7 @@ html > body #Content .HomeCol1 { margin-left: 111px; }
 #Content #NewsPanelHolder #NewsPanelInner dl dd .More a { float: left; }
 #Content #NewsPanelHolder #NewsPanelInner dl dd span { /*width: 590px;*/ width: 710px; color: #ccc; }
 /*#Content #NewsPanelHolder #NewsPanelInner dl dd .More a { background:url("/arkhamasylum/data/assets/batmanadmin/images/buttons/circle_arrow_yellow.gif") no-repeat 0 -66px; width: 66px; height: 66px; text-indent: -99999px; }*/
-#Content #NewsPanelHolder #NewsPanelInner dl dd .More a { height: 22px; width: 34px; padding: 12px 0 0 0; color: #feae01; text-decoration: none; text-transform: uppercase; background:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/buttons/circle_arrow_grey.gif") no-repeat 100% -34px; text-indent: -99999px; }
+#Content #NewsPanelHolder #NewsPanelInner dl dd .More a { height: 22px; width: 34px; padding: 12px 0 0 0; color: #feae01; text-decoration: none; text-transform: uppercase; background:url("/arkhamasylum/data/assets/batmanadmin/images/buttons/circle_arrow_grey.gif") no-repeat 100% -34px; text-indent: -99999px; }
 
 #Content #NewsPanelHolder #NewsPanelInner dl dd .More a:hover { color: #999; background-position: 100% 0; }
 #Content #NewsPanelHolder #NewsPanelInner dl dd span p { padding: 0 0 5px 0; }
@@ -180,11 +180,11 @@ html > body #Content #NewsArticle #NewsArticleHolder .Content .Right { height: a
 #Content #NewsArticle #NewsArticleHolder .Content .Right small { color: #666; }
 
 /* BLOG ARTICLE PAGE */
-#Content #BlogArticle { clear: both; width: 884px; margin: 0 0 0 46px; background:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/panels/blog_top.gif") no-repeat 0 0; padding: 5px 0 0 0; }
+#Content #BlogArticle { clear: both; width: 884px; margin: 0 0 0 46px; background:url("/arkhamasylum/data/assets/batmanadmin/images/panels/blog_top.gif") no-repeat 0 0; padding: 5px 0 0 0; }
 html > body #Content #BlogArticle { margin: 0 auto; }
-#Content #BlogArticle #BlogArticleHolder { width: 100%; background:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/panels/blog_bottom.gif") no-repeat 0 100%; padding: 0 0 5px 0; }
+#Content #BlogArticle #BlogArticleHolder { width: 100%; background:url("/arkhamasylum/data/assets/batmanadmin/images/panels/blog_bottom.gif") no-repeat 0 100%; padding: 0 0 5px 0; }
 #Content #BlogArticle #BlogArticleHolder .Content, #Content #BlogArticle #BlogArticleHolder .Content .Right, #Content #BlogArticle #BlogArticleHolder .Left { margin: 0; padding: 0; display: block; }
-#Content #BlogArticle #BlogArticleHolder .Content { padding: 5px 0; width: 100%; background:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/panels/blog_middle.gif") repeat-y 0 0; }
+#Content #BlogArticle #BlogArticleHolder .Content { padding: 5px 0; width: 100%; background:url("/arkhamasylum/data/assets/batmanadmin/images/panels/blog_middle.gif") repeat-y 0 0; }
 #Content #BlogArticle #BlogArticleHolder .Content .Right, #Content #BlogArticle #BlogArticleHolder .Content .Left { float: left; }
 #Content #BlogArticle #BlogArticleHolder .Content .Right { padding: 0 10px 0 15px; margin: 0 0 0 16px; width: 183px; }
 #Content #BlogArticle #BlogArticleHolder .Content .Left { padding: 0 15px; width: 630px; height: 500px; }
@@ -195,9 +195,9 @@ html > body #Content #BlogArticle #BlogArticleHolder .Content .Left { height: au
 #Content #BlogArticle #BlogArticleHolder .Content .Right h2 { padding: 0 0 20px 0; font-size: 140%; }
 #Content #BlogArticle #BlogArticleHolder .Content .Right ul, #Content #BlogArticle #BlogArticleHolder .Content .Right ul li { margin: 0; padding: 0; list-style: none; }
 #Content #BlogArticle #BlogArticleHolder .Content .Right ul li { margin: 0 0 5px 0; color: #666; }
-#Content #BlogArticle #BlogArticleHolder .Content .Right ul li a { float: left; display: block; color: #fff; text-decoration: none; padding: 0 0 10px 20px; background:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/buttons/arrow_yellow_small.gif") no-repeat 0 0; }
+#Content #BlogArticle #BlogArticleHolder .Content .Right ul li a { float: left; display: block; color: #fff; text-decoration: none; padding: 0 0 10px 20px; background:url("/arkhamasylum/data/assets/batmanadmin/images/buttons/arrow_yellow_small.gif") no-repeat 0 0; }
 #Content #BlogArticle #BlogArticleHolder .Content .Right ul li a:hover { background-position: 5px 0; }
-#Content #BlogArticle #BlogArticleHolder .Content .Right ul .PodCast a { background-image:url(/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/buttons/ipod.gif); }
+#Content #BlogArticle #BlogArticleHolder .Content .Right ul .PodCast a { background-image:url(/arkhamasylum/data/assets/batmanadmin/images/buttons/ipod.gif); }
 #Content #BlogArticle #BlogArticleHolder .Content .Right ul .PodCast a:hover { background-position: 0 0; }
 #Content #BlogArticle #BlogArticleHolder .Content .Right ul li a:hover { color: #fc0; }
 #Content #BlogArticle #BlogArticleHolder .Content .Left h2 { padding: 0 0 5px 0; }
@@ -210,9 +210,9 @@ html > body #Content #BlogArticle #BlogArticleHolder .Content .Left { height: au
 html > body #Content #BlogArticle #BlogArticleHolder .Content dl dd { height: auto; min-height: 10px; }
 #Content #BlogArticle #BlogArticleHolder .Content dl dd p { padding: 0 0 10px 0; }
 #Content #BlogArticle #BlogArticleHolder .Content dl dd .Author { font-size: 83%; }
-#Content #BlogArticle #BlogArticleHolder .Content dl dd a { color: #666; text-decoration: none; background:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/buttons/arrow_grey_small.gif") no-repeat 0 -20px; padding: 3px 0 3px 25px; }
+#Content #BlogArticle #BlogArticleHolder .Content dl dd a { color: #666; text-decoration: none; background:url("/arkhamasylum/data/assets/batmanadmin/images/buttons/arrow_grey_small.gif") no-repeat 0 -20px; padding: 3px 0 3px 25px; }
 #Content #BlogArticle #BlogArticleHolder .Content dl dd a:hover { background-position: 0 0; color: #999; }
-#Content #BlogArticle #BlogArticleHolder .Content .Download a { color: #fff; background:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/buttons/download.gif") no-repeat 0 0; padding: 5px 0 10px 24px; text-decoration: none; }
+#Content #BlogArticle #BlogArticleHolder .Content .Download a { color: #fff; background:url("/arkhamasylum/data/assets/batmanadmin/images/buttons/download.gif") no-repeat 0 0; padding: 5px 0 10px 24px; text-decoration: none; }
 #Content #BlogArticle #BlogArticleHolder .Content hr { margin: 5px 0 10px 0; border: none; color: #666; border-bottom: solid 1px #666; }
 #Content #BlogArticle #BlogArticleHolder .Content .PodAudio { margin: 0 0 20px 0; }
 
@@ -293,7 +293,7 @@ html > body #Content .GameCol1 { margin-left: 22px; }
 
 /* PURCHASE PAGE */
 #Content .ExpandoBox .ExpandoHolder .Purchase { padding: 0; width: 884px; }
-#Content .ExpandoBox .ExpandoHolder .Purchase .SilverPlated { float: left; display: block; background:url(/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/general/preorder_title.gif) no-repeat 50% 0; width: 876px; height: 44px; text-align: center; color: #fff; padding: 15px 0; margin: 0 4px 20px 4px; text-transform: uppercase; }
+#Content .ExpandoBox .ExpandoHolder .Purchase .SilverPlated { float: left; display: block; background:url(/arkhamasylum/data/assets/batmanadmin/images/general/preorder_title.gif) no-repeat 50% 0; width: 876px; height: 44px; text-align: center; color: #fff; padding: 15px 0; margin: 0 4px 20px 4px; text-transform: uppercase; }
 #Content .ExpandoBox .ExpandoHolder .Purchase .SilverPlated strong { color: #fc0; }
 #Content .ExpandoBox .ExpandoHolder .Purchase img { border: none; }
 #Content .ExpandoBox .ExpandoHolder .Purchase dl, #Content .ExpandoBox .ExpandoHolder .Purchase dl dt, #Content .ExpandoBox .ExpandoHolder .Purchase dl dd { margin: 0; padding: 0; }
@@ -304,9 +304,9 @@ html > body #Content .GameCol1 { margin-left: 22px; }
 /* US PRE ORDER PAGE */
 #Content .ExpandoBox .ExpandoHolder .Purchase .USPurchase .MetalFrame { clear: both; width: 634px; height: 287px; height: 246px; margin: 0 auto 20px auto; }
 #Content .ExpandoBox .ExpandoHolder .Purchase .USPurchase .MetalFrame p { text-align: center; padding: 0; margin: 0; float: left; display: block; }
-#Content .ExpandoBox .ExpandoHolder .Purchase .USPurchase .MetalFrame .MetalFrameTop { height: 60px; width: 100%; background:url(/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/panels/metal_frame_top.gif) no-repeat 0 0; }
-#Content .ExpandoBox .ExpandoHolder .Purchase .USPurchase .MetalFrame p { height: 145px; width: 560px; padding: 0 37px; background:url(/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/panels/metal_frame_middle.gif) no-repeat 0 0; }
-#Content .ExpandoBox .ExpandoHolder .Purchase .USPurchase .MetalFrame ul { clear: both; float: left; list-style: none; padding: 30px 0 0 0; width: 100%; background:url(/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/panels/metal_frame_bottom.gif) no-repeat 0 0; }
+#Content .ExpandoBox .ExpandoHolder .Purchase .USPurchase .MetalFrame .MetalFrameTop { height: 60px; width: 100%; background:url(/arkhamasylum/data/assets/batmanadmin/images/panels/metal_frame_top.gif) no-repeat 0 0; }
+#Content .ExpandoBox .ExpandoHolder .Purchase .USPurchase .MetalFrame p { height: 145px; width: 560px; padding: 0 37px; background:url(/arkhamasylum/data/assets/batmanadmin/images/panels/metal_frame_middle.gif) no-repeat 0 0; }
+#Content .ExpandoBox .ExpandoHolder .Purchase .USPurchase .MetalFrame ul { clear: both; float: left; list-style: none; padding: 30px 0 0 0; width: 100%; background:url(/arkhamasylum/data/assets/batmanadmin/images/panels/metal_frame_bottom.gif) no-repeat 0 0; }
 #Content .ExpandoBox .ExpandoHolder .Purchase .USPurchase .MetalFrame ul li { float: left; display: block; margin: 0 10px; display: none; }
 html > body #Content .ExpandoBox .ExpandoHolder .Purchase .USPurchase .MetalFrame ul li { margin: 0 11px; }
 
@@ -325,13 +325,13 @@ html > body #Content .ExpandoBox .ExpandoHolder .Purchase .USPurchase .MetalFram
 
 /* UK PRE ORDER PAGE */
 #Content .ExpandoBox .ExpandoHolder .Purchase .UKPurchase h2 { text-align: center; }
-#Content .ExpandoBox .ExpandoHolder .Purchase .UKPurchase .OrderBox { clear: both; width: 854px; margin: 0 auto 10px auto; background:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/panels/order_top.gif") no-repeat 0 0; padding: 15px 0 0 0; }
-#Content .ExpandoBox .ExpandoHolder .Purchase .UKPurchase .OrderBox .OrderHolder { width: 100%; background:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/panels/order_bottom.gif") no-repeat 0 100%; padding: 0 0 15px 0; }
-#Content .ExpandoBox .ExpandoHolder .Purchase .UKPurchase .OrderBox .OrderHolder .OrderContent { clear: both; padding: 10px 0; width: 100%; background:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/panels/order_middle.gif") repeat-y 0 0; }
+#Content .ExpandoBox .ExpandoHolder .Purchase .UKPurchase .OrderBox { clear: both; width: 854px; margin: 0 auto 10px auto; background:url("/arkhamasylum/data/assets/batmanadmin/images/panels/order_top.gif") no-repeat 0 0; padding: 15px 0 0 0; }
+#Content .ExpandoBox .ExpandoHolder .Purchase .UKPurchase .OrderBox .OrderHolder { width: 100%; background:url("/arkhamasylum/data/assets/batmanadmin/images/panels/order_bottom.gif") no-repeat 0 100%; padding: 0 0 15px 0; }
+#Content .ExpandoBox .ExpandoHolder .Purchase .UKPurchase .OrderBox .OrderHolder .OrderContent { clear: both; padding: 10px 0; width: 100%; background:url("/web/20100102003337im_/http://batmanarkhamasylum/data/assets/batmanadmin/images/panels/order_middle.gif") repeat-y 0 0; }
 #Content .ExpandoBox .ExpandoHolder .Purchase .UKPurchase .OrderBox .OrderHolder .OrderContent p { text-align: center; padding: 0; }
 #Content .ExpandoBox .ExpandoHolder .Purchase .UKPurchase .OrderBox .OrderHolder .OrderContent .Retailer { padding: 0 0 10px 150px; }
 #Content .ExpandoBox .ExpandoHolder .Purchase .UKPurchase .OrderBox .OrderHolder .OrderContent img { border: none; }
-#Content .ExpandoBox .ExpandoHolder .ExpandoContent .PlatformPanel { margin: 10px auto; background:url(/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/panels/platform_panel.gif) no-repeat 0 0; width: 795px; height: 63px; }
+#Content .ExpandoBox .ExpandoHolder .ExpandoContent .PlatformPanel { margin: 10px auto; background:url(/arkhamasylum.com/data/assets/batmanadmin/images/panels/platform_panel.gif) no-repeat 0 0; width: 795px; height: 63px; }
 
 /* AUSTRALIAN PRE ORDER PAGE */
 #Content .ExpandoBox .ExpandoHolder .Purchase .AUPurchase { text-align: center; }
@@ -400,7 +400,7 @@ html > body #Content .ExpandoBox .ExpandoHolder .Purchase .ESPurchase dl { margi
 #Content .ExpandoBox .ExpandoHolder .Description { clear: both; color: #feae01; font-weight: bold; }
 #Content .ExpandoBox .ExpandoHolder #CompForm, #Content .ExpandoBox .ExpandoHolder #CompRight { float: left; }
 #Content .ExpandoBox .ExpandoHolder #CompForm { width: 390px; }
-#Content .ExpandoBox .ExpandoHolder #CompRight { width: 464px; height: 512px; padding: 17px 0 0 0; background:url(/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/panels/comp_back.gif) no-repeat 0 0; text-align: center; }
+#Content .ExpandoBox .ExpandoHolder #CompRight { width: 464px; height: 512px; padding: 17px 0 0 0; background:url(/arkhamasylum/data/assets/batmanadmin/images/panels/comp_back.gif) no-repeat 0 0; text-align: center; }
 
 /* FORM */
 #Content .ExpandoBox .ExpandoHolder #CompForm label { width: 146px; }
