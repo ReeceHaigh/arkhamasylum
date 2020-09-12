@@ -52,7 +52,7 @@ html > body #Footer { width: auto; min-width: 930px; }
 #Header #HeaderRight ul li a { padding: 2px 0 3px 20px; margin: 0 5px; font-family: verdana; font-weight: bold; }
 #Header #HeaderRight ul .Facebook a { background-image:url("/arkhamasylum/data/assets/batmanadmin/images/logos/facebook.gif"); }
 #Header #HeaderRight ul .MySpace a { background-image:url("/arkhamasylum/data/assets/batmanadmin/images/logos/myspace.gif"); }
-#Header #HeaderRight #Advertise { height: 52px; padding: 3px 0 7px 7px; width: 211px; margin: 0 0 8px 0; /*background:url(/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/panels/advertising.gif) no-repeat 0 0;*/ }
+#Header #HeaderRight #Advertise { height: 52px; padding: 3px 0 7px 7px; width: 211px; margin: 0 0 8px 0; /*background:url(/arkhamasylum/data/assets/batmanadmin/images/panels/advertising.gif) no-repeat 0 0;*/ }
 #Header #HeaderRight .Register { float: left; clear: both; clear: both; padding: 5px 0 0 0; width: 100%; height: 20px; }
 #Header #HeaderRight .Register a { background:url(/arkhamasylum/data/assets/batmanadmin/images/buttons/register.gif) no-repeat 10px 2px; padding: 0 0 0px 31px; width: 165px; margin-left:5px; text-transform: uppercase; font-size: 130%; }
 
@@ -101,10 +101,10 @@ html > body #Content .MetalPanelSmall dl dd { padding-bottom: 6px; }
 #Content .MetalPanelSmall .NewsPanel dt { background-image:url("/arkhamasylum/data/assets/batmanadmin/images/pictures/news.jpg"); }
 
 /* PANEL TITLES */
-#Content h1.Article, #Content h1.Blog { float: left; width: 872px; padding: 15px 0 0 12px; margin: 0 23px; background:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/panels/title.gif") no-repeat 0 0; height: 49px; font-size: 225%; overflow: hidden; }
+#Content h1.Article, #Content h1.Blog { float: left; width: 872px; padding: 15px 0 0 12px; margin: 0 23px; background:url("/arkhamasylum/data/assets/batmanadmin/images/panels/title.gif") no-repeat 0 0; height: 49px; font-size: 225%; overflow: hidden; }
 
 /* Game Panel */
-#Content .MetalPanelSmall .GamePanel dt { background-image:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/pictures/game.jpg"); }
+#Content .MetalPanelSmall .GamePanel dt { background-image:url("/arkhamasylum/data/assets/batmanadmin/images/pictures/game.jpg"); }
 
 /* BLOG PANEL */
 #Content .MetalPanelSmall2 div { float: left; width: 876px; background-repeat: no-repeat; background-position: 0 0; height: 200px; font-family: impact; color: #fff; text-transform: uppercase; font-size: 225%; }
@@ -113,7 +113,7 @@ html > body #Content .MetalPanelSmall dl dd { padding-bottom: 6px; }
 #Content .MetalPanelSmall2 .Features { background-image:url("/arkhamasylum/data/assets/batmanadmin/images/pictures/features.jpg"); }
 #Content .MetalPanelSmall2 .Characters { background-image:url("/arkhamasylum/data/assets/batmanadmin/images/pictures/characters2.jpg"); padding: 10px 0 0 10px; width: 866px; height: 200px; font-family: impact; color: #fff; text-transform: uppercase; font-size: 225%; }
 
-#Content .MetalPanelSmall .Characters { background-image:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/pictures/characters.jpg"); padding: 10px 0 0 10px; width: 866px; height: 261px; font-family: impact; color: #fff; text-transform: uppercase; font-size: 225%; }
+#Content .MetalPanelSmall .Characters { background-image:url("/arkhamasylum/data/assets/batmanadmin/images/pictures/characters.jpg"); padding: 10px 0 0 10px; width: 866px; height: 261px; font-family: impact; color: #fff; text-transform: uppercase; font-size: 225%; }
 
 /* Side By side Black Fuzz Elements */
 #Content .MetalPanelInfo dl, #Content .MetalPanelInfo dt, #Content .MetalPanelInfo dd { float: left; clear: both; margin: 0; padding: 0; width: 100%; }
@@ -123,11 +123,11 @@ html > body #Content .MetalPanelSmall dl dd { padding-bottom: 6px; }
 #Content .MetalPanelInfo dd p { clear: both; padding: 0 0 5px 0; }
 #Content .MetalPanelInfo dd .Bottom { clear: both; text-align: right; color: #999; }
 #Content .MetalPanelInfo dd .Bottom span { float: left; }
-#Content .MetalPanelInfo dd .Bottom a { float: right; padding: 2px 23px 0 0; color: #fc0; height: 16px; border: none; background:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/buttons/arrow_yellow.gif") no-repeat 100% 0 #000; text-decoration: none;  }
+#Content .MetalPanelInfo dd .Bottom a { float: right; padding: 2px 23px 0 0; color: #fc0; height: 16px; border: none; background:url("/arkhamasylum/data/assets/batmanadmin/images/buttons/arrow_yellow.gif") no-repeat 100% 0 #000; text-decoration: none;  }
 #Content .MetalPanelInfo dd .Bottom a:hover { color: #fff; background-position: 100% -18px; }
 
 /* METAL PANEL DEEP INFO */
-#Content .MetalShallowPanel a { color: #feae01; text-decoration: none; background:url("/web/20100102003337im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/buttons/small_arrow_yellow.gif") no-repeat 100% -24px; padding: 5px 34px 5px 0; }
+#Content .MetalShallowPanel a { color: #feae01; text-decoration: none; background:url("/arkhamasylum/data/assets/batmanadmin/images/buttons/small_arrow_yellow.gif") no-repeat 100% -24px; padding: 5px 34px 5px 0; }
 #Content .MetalShallowPanel a:hover { background-position: 100% 0; color: #999; }
 #Content .MetalShallowPanel .MetalWindow { height: 180px; text-align: left; }
 #Content .MetalShallowPanel .MetalWindow h2 { font-size: 200%; }
