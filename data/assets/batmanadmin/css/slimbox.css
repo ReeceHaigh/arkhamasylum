@@ -1,0 +1,50 @@
+/* SLIMBOX */
+
+#lbOverlay { position: absolute; left: 0; width: 100%; background-color: #000; cursor: pointer; z-index: 100; }
+#lbCenter, #lbBottomContainer { position: absolute; left: 50%; background-color: #fff; z-index: 101; }
+#lbBottomContainer {overflow: hidden;z-index: 101;}
+#lbCenter a, #lbBottomContainer a { padding: 0; border: none; }
+.lbLoading { background: #fff url("/web/20110518163014im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/general/loading.gif") no-repeat center; }
+
+#lbImage { position: absolute; left: 0; top: 0; border: 50px solid #fff; border-top-width: 5px; border-bottom-width: 5px; background-repeat: no-repeat; z-index: 101; }
+
+#lbPrevLink, #lbNextLink { display: block; position: absolute; top: 0; width: 50%; outline: none; }
+
+#lbPrevLink { left: -50px; }
+#lbPrevLink { background: transparent url("/web/20110518163014im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/buttons/light_previous.gif") no-repeat 0 15%; }
+#lbNextLink { right: -51px; }
+html > body #lbNextLink { right: -50px; }
+
+#lbNextLink { background: transparent url("/web/20110518163014im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/buttons/light_next.gif") no-repeat 100% 15%; }
+
+#lbBottom { font-size: 80%; color: #069; text-align: left; border: 50px solid #fff; border-top: none; border-bottom-width: 10px;; background:#fff; }
+
+#lbCloseLink { display: block; float: right; width: 26px; height: 26px; background: transparent url("/web/20110518163014im_/http://batmanarkhamasylum.com/data/assets/batmanadmin/images/buttons/close.gif") no-repeat center; margin: 5px 0; padding: 5px; }
+
+#lbCloseLink:hover { }
+
+#lbCaption, #lbNumber { padding: 5px 0 0 0px; margin-right: 71px; }
+
+#lbCaption { font-weight: bold; }
+
+/*
+     FILE ARCHIVED ON 16:30:14 May 18, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 13:34:26 Sep 13, 2020.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  RedisCDXSource: 0.597
+  load_resource: 219.197
+  exclusion.robots: 0.162
+  captures_list: 188.829
+  esindex: 0.011
+  PetaboxLoader3.datanode: 165.477 (4)
+  CDXLines.iter: 20.262 (3)
+  PetaboxLoader3.resolve: 132.169 (2)
+  LoadShardBlock: 164.545 (3)
+  exclusion.robots.policy: 0.15
+*/
