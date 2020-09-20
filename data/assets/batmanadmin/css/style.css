@@ -141,7 +141,7 @@ html > body #Content .HomeCol1 { margin-left: 111px; }
 #Content #NewsPanelHolder { clear: both; width: 884px; margin: 0 auto; background:url("/arkhamasylum/data/assets/batmanadmin/images/panels/news_list_top.gif") no-repeat 0 0; padding: 3px 0 0 0; }
 #Content #NewsPanelHolder #NewsPanelInner { width: 100%; background:url("/arkhamasylum/data/assets/batmanadmin/images/panels/news_list_bottom.gif") no-repeat 0 100%; padding: 0 0 5px 0; }
 #Content #NewsPanelHolder #NewsPanelInner dl, #Content #NewsPanelHolder #NewsPanelInner dl dt, #Content #NewsPanelHolder #NewsPanelInner dd { margin: 0; padding: 0; display: block; }
-#Content #NewsPanelHolder #NewsPanelInner dl { padding: 10px 0; width: 100%; background:url("arkhamasylum/data/assets/batmanadmin/images/panels/news_list_middle.gif") repeat-y 0 0; overflow: auto; }
+#Content #NewsPanelHolder #NewsPanelInner dl { padding: 10px 0; width: 100%; background:url("/arkhamasylum/data/assets/batmanadmin/images/panels/news_list_middle.gif") repeat-y 0 0; overflow: auto; }
 #Content #NewsPanelHolder #NewsPanelInner dl dt, #Content #NewsPanelHolder #NewsPanelInner dl dd { float: left; }
 #Content #NewsPanelHolder #NewsPanelInner dl dt { padding: 0 0 0 12px; width: 85px; }
 #Content #NewsPanelHolder #NewsPanelInner dl dt img { border: solid 1px #666; }
