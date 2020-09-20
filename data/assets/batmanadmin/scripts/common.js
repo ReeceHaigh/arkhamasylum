@@ -64,7 +64,7 @@ function RunFunctions() {
 	BlurLinks();
 	podcasts();
 	if (document.getElementById("Header")) {
-		var so = new SWFObject("/data/assets/" + BaseURL + "flash/arkham_asylum.swf", "Trailer", "370", "140", "6", "#000000");
+		var so = new SWFObject(“/arkhamasylum/data/assets/" + BaseURL + "flash/arkham_asylum.swf", "Trailer", "370", "140", "6", "#000000");
 		so.addParam("wmode", "transparent");
 		so.write("Logo");
 	}
@@ -85,9 +85,9 @@ function podcasts() {
 			j++;
 			podHolder	= "Podcast" + j;
 			if (document.getElementById(podHolder))	{
-				var po = new SWFObject("/data/assets/" + BaseURL + "flash/audioPlayer.swf", "Pod Cast", "630", "40", "6", "#000000");
+				var po = new SWFObject(“/arkhamasylum/data/assets/" + BaseURL + "flash/audioPlayer.swf", "Pod Cast", "630", "40", "6", "#000000");
 				po.addParam("wmode", "transparent");
-				po.addVariable("MP3Path", "/data/assets/" + BaseURL + "audio/" + podcastArray[i]);
+				po.addVariable("MP3Path", “/arkhamasylum/data/assets/" + BaseURL + "audio/" + podcastArray[i]);
 				po.write(podHolder);
 			}
 		}
@@ -95,7 +95,7 @@ function podcasts() {
 }
 
 function PlayBatMedia(Lang, Media) {
-	var so 			= new SWFObject("/data/assets/" + BaseURL + "flash/mediaVideo.swf", "Bat Media", "514", "320", "6", "#FFFFFF");
+	var so 			= new SWFObject(“/arkhamasylum/data/assets/" + BaseURL + "flash/mediaVideo.swf", "Bat Media", "514", "320", "6", "#FFFFFF");
 	var	MediaExt	= "";
 	
 		if (Media != "environmental") {
@@ -134,7 +134,7 @@ function PlayBatMedia(Lang, Media) {
 	
 	}
 	
-	MediaURL		= "/data/assets/" + BaseURL + "videos/" + Media + "/" + Media + MediaExt + ".flv";
+	MediaURL		= “/arkhamasylum/data/assets/" + BaseURL + "videos/" + Media + "/" + Media + MediaExt + ".flv";
 	so.addVariable("FLVPath", MediaURL);
 	so.addVariable("BasePath", BaseURL);
 	so.addParam("wmode", "transparent");
@@ -142,7 +142,7 @@ function PlayBatMedia(Lang, Media) {
 }
 
 function PlayHomeTrailer(movie,Lang) {
-	var so = new SWFObject("/data/assets/" + BaseURL + "flash/homeVideo.swf", "Trailer", "700", "394", "6", "#000000");
+	var so = new SWFObject(“/arkhamasylum/data/assets/" + BaseURL + "flash/homeVideo.swf", "Trailer", "700", "394", "6", "#000000");
 	
 	if (Lang) {
 		trailer	= "movie_" + Lang;
@@ -151,7 +151,7 @@ function PlayHomeTrailer(movie,Lang) {
 	else {
 		trailer	= movie;
 	}
-	so.addVariable("FLVPath", "/data/assets/" + BaseURL + "videos/" + movie + "/" + trailer + ".flv");
+	so.addVariable("FLVPath", “/arkhamasylum/data/assets/" + BaseURL + "videos/" + movie + "/" + trailer + ".flv");
 	so.addParam("wmode", "transparent");
 	so.addVariable("BasePath", BaseURL);
 	so.write("Carrousel");
@@ -195,7 +195,7 @@ function showPrice(prize,title,text) {
 		var toolTip = "";
 
 		prizeText = title + ":\n" + text;
-		document.getElementById("Prizes").innerHTML = "<img src=\"/data/assets/" + BaseURL + "/images/competitions/large/" + prize + ".gif\"" + toolTip +  " alt=\"\" />";
+		document.getElementById("Prizes").innerHTML = "<img src=\”/arkhamasylum/data/assets/" + BaseURL + "/images/competitions/large/" + prize + ".gif\"" + toolTip +  " alt=\"\" />";
 	}
 }
 
@@ -214,24 +214,3 @@ function openwindow() {
 
 
 }
-/*
-     FILE ARCHIVED ON 00:34:01 Jan 02, 2010 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 13:26:32 Sep 11, 2020.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  exclusion.robots.policy: 0.363
-  captures_list: 504.786
-  esindex: 0.016
-  RedisCDXSource: 25.648
-  exclusion.robots: 0.38
-  PetaboxLoader3.datanode: 432.756 (4)
-  CDXLines.iter: 22.447 (3)
-  LoadShardBlock: 451.013 (3)
-  load_resource: 201.347
-  PetaboxLoader3.resolve: 185.593 (2)
-*/
